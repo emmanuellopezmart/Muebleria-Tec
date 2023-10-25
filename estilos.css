@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+.fondo{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    background-color:#037bc0 ;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+}
+
+header h1 span{
+    color: #037bc0;
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+}
+
+main{
+    column-count: 1;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url(/img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .hero{
+        height: 55rem;
+    }
+}
+
+.button{
+    background-color: #8cbc00;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+.col-md-6{
+    font-family: 'Playfair Display', serif;
+}
+
+.titulocat{   
+    text-align: center;
+}
+
+.enlacecate{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.imagen{
+    margin: auto;
+    cursor: pointer;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+.imagen:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
